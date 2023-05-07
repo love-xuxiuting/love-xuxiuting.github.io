@@ -271,7 +271,12 @@ body,button {
 }
 .flowtime h3 {
 	font-size:2.5rem;
-	line-height:3rem
+	line-height:3rem;
+}
+.page-30 h3{
+	position: absolute;
+	top: 15%;
+	left: 30%;
 }
 .flowtime h4,.flowtime h5,.flowtime h6 {
 	font-size:2.5rem;
@@ -566,7 +571,7 @@ body,button {
 }
 .right-img .text {
 	left:0;
-	top:0;
+	top:15%;
 	z-index:2;
 	padding:2em
 }
@@ -623,9 +628,9 @@ body,button {
 	text-align:center
 }
 .page-2 p {
-	height:10%;
 	padding-top:5%;
-	margin:0
+	margin:0;
+	line-height: 2em;
 }
 .page-2 img {
 	height:80%
@@ -717,6 +722,11 @@ body,button {
 .page-13 he {
 	height:20%
 }
+.page-13 h3{
+	position: absolute;
+	top: 10%;
+	left: 20%;
+}
 .page-14 {
 	background-color:#fbf7d1
 }
@@ -784,8 +794,8 @@ body,button {
 }
 .page-28 h3 {
 	position:absolute;
-	right:1em;
-	bottom:360px;
+	left:15%;
+	top:15%;
 	text-align:right;
 	color:#127184
 }
@@ -825,7 +835,9 @@ body,button {
 .page-34 {
 	background:#94c2e3 url(img/iali57.jpg) left bottom no-repeat
 }
-
+.page-34 h3{
+	right: 20%;
+}
 .page-35 {
 	background:#fff url(img/iali8_bg.png) left bottom repeat-x;
 	padding:0
@@ -841,12 +853,13 @@ body,button {
 	right:10%;
 	top:5%;
 	z-index:2;
-	font-size:2.5em
+	font-size:2.5em;
+	line-height: 2em;
 }
 .page-36 h3 {
-	text-align:right;
-	right:1.5em;
+	text-align:center;
 	color: #613b3b;
+	top: 30%;
 }
 .page-37 {
 	background-color:#fff
@@ -856,6 +869,9 @@ body,button {
 }
 .page-39 {
 	background:#e8ccc1 url(img/iali2_bg.jpg) repeat
+}
+.page-39 h3{
+	line-height: 2em;
 }
 .page-40 {
 	background-color:#cde7f4
@@ -919,6 +935,9 @@ body,button {
 }
 .page-45 {
 	background-color:#b1dceb
+}
+.page-45 span{
+	line-height: 2em;
 }
 .page-46 {
 	background:#66cbff
@@ -1009,7 +1028,8 @@ body,button {
 .page-51 p{
 	font-size:2.5em;
 	line-height: 2em;
-	
+	text-align: center;
+}
 .page-52 {
 	background-color:#fff2fb;
 	padding:0;
@@ -1019,20 +1039,15 @@ body,button {
 .page-52 h3 {
 	margin:0;
 	padding-top:.8em;
-	font-size:1.6em;
-	color:#4e0f3d
+	color:#4e0f3d;
+	line-height: 2em;
+	top: 20%;
 }
 .page-53 {
 	background-color:#febebe
 }
 .page-54 {
 	background:#d3d2d0 url(img/319280_bg.jpg) repeat
-}
-
-.page-54 .center-img img{
-	position: absolute;
-	top: 50%;
-	left: 50%;
 }
 .page-54 h3 {
 	line-height:1rem;
